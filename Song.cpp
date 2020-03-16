@@ -1,7 +1,7 @@
 #include <iostream>
 #include <string>
 #include <vector>
-#include "snatches.h"
+#include "Snatches.h"
 
 int main(int argc, char** argv ) {
 
