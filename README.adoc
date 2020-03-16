@@ -1,0 +1,11 @@
+= Kata petite comptine sympa
+
+J’essaye de faire https://github.com/sleepyfox/code-dojo-39ihttps://github.com/sleepyfox/code-dojo-39[ce truc] en cpp.
+C’est la première fois que je fais du cpp, c’est la première fois que j’en fais avec des tests.
+J’ai utilisé et installé la bibliothèque `UnitTest++`.
+
+Voici ma commande de compilation :
+[source,bash]
+----
+g++ test.cpp -o test -I/usr/include/UnitTest++ -lUnitTest++
+----
