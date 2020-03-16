@@ -14,6 +14,13 @@ SUITE(Swallow) {
   }
 }
 
+SUITE(Die) {
+  TEST(Thing) {
+    CHECK_EQUAL(die("thing"),
+        "I don't know why she swallowed a thing - perhaps she'll die!\n\n"); 
+  }
+}
+
 int main(int, const char *[]) {
   return UnitTest::RunAllTests();
 }

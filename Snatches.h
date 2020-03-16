@@ -2,5 +2,6 @@
 #define __SNATCHES__H__
 
 std::string old_lady_swallow(std::string animal = "");
+std::string die(std::string animal);
 
 #endif
