@@ -10,7 +10,7 @@ int main(int argc, char** argv ) {
     animals.push_back(argv[i]);
   }
 
-	std::string song = old_lady_swallow(animals[0]) + die(animals[0]) +
+	std::string song = old_lady_swallow(animals[0]) + probably_die(animals[0]) +
             "There was an old lady who swallowed a spider;\n" \
             "That wriggled and wiggled and tickled inside her.\n" \
             "She swallowed the spider to catch the fly;\n" \
