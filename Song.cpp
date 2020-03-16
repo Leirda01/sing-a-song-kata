@@ -1,8 +1,16 @@
 #include <iostream>
 #include <string>
+#include <vector>
+#include "snatches.h"
 
-int main(int argc, char *argv[]) {
-	std::string song = "There was an old lady who swallowed a fly.\n" \
+int main(int argc, char** argv ) {
+
+  std::vector<std::string> animals;
+  for (int i = 1; i < argc; i++) {
+    animals.push_back(argv[i]);
+  }
+
+	std::string song = old_lady_swallow(animals[0]) +
             "I don't know why she swallowed a fly - perhaps she'll die!\n" \
             "\n" \
             "There was an old lady who swallowed a spider;\n" \
