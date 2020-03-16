@@ -7,5 +7,23 @@ J’ai utilisé et installé la bibliothèque `UnitTest++`.
 Voici ma commande de compilation :
 [source,bash]
 ----
-g++ test.cpp -o test -I/usr/include/UnitTest++ -lUnitTest++
+g++ SongTest.cpp Snatches.cpp -o test -I/usr/include/UnitTest++ -lUnitTest++
+----
+
+Mais aussi, pour compiler le programme
+[source,bash]
+----
+g++ Song.cpp Snatches.cpp -o song
+----
+
+Pour être goldenmaster compliant
+[source,bash]
+----
+./song fly spider bird cat dog cow horse
+----
+
+Joli truc pour se comparer au golden master
+[source,bash]
+----
+./song fly spider bird cat dog cow horse | diff - goldenmaster
 ----
